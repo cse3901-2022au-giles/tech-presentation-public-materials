@@ -4,19 +4,23 @@
 
 1. Be able to identify *what* Bootstrap is.
 
-2. Understand *how to implement Bootstrap* in any project.
+2. Understand the history and improvements for Bootstrap.
 
-3. Recognize the *pros and cons of Bootstrap*, and explain why, or why not, Bootstrap is right for a project.
+3. Discover which major sites use Bootstrap.
 
-4. Be comfortable with *at least 1 Bootstrap element*
+4. Understand *how to implement Bootstrap* in any project.
 
-    4.1. Explain *how Bootstrap elevates the element*
+5. Recognize the *pros and cons of Bootstrap*, and explain why, or why not, Bootstrap is right for a project.
+
+6. Be comfortable with *at least 1 Bootstrap element*
+
+    6.1. Explain *how Bootstrap elevates the element*
   
-    4.2. Recognize *what the Bootstrap classes do* and how they affect the element
+    6.2. Recognize *what the Bootstrap classes do* and how they affect the element
   
-5. Know *where to look to find extra help* when implementing Bootstrap.
+7. Know *where to look to find extra help* when implementing Bootstrap.
 
-6. Be able to name *at least 1 alternative* to Bootstrap.
+8. Be able to name *at least 1 alternative* to Bootstrap.
 
 ### How to Get Bootstrap Into Your Code
 
@@ -45,7 +49,7 @@
 4. How many tags do you need to include in your project to add Bootstrap and where do they go?
 
 5. What are the 2 aspects of a Bootstrap component?
-
+                    
 6. What is one limitation of Bootstrap?
 
 7. Name one alternative to Bootstrap.
@@ -63,8 +67,8 @@
 | Toasts | toast, toast-container, toast-body, in js -> new bootstrap.Toast(toastLiveExample) toast.show() |
 | Forms | form-control, form-inline, form-group, row, col, needs-validation, is-valid, is-invalid |
 | Grids | container, container-fluid, row, col-\*, no-gutters |
-| Navbars | navbar, navbar-toggler, navbar sticky-top, navbar-light, collapse navbar-collapse |
-| Buttons | btn, btn-primary, btn-outline-danger, btn-link, btn-dark |
+| Navbars | navbar, navbar-toggler, navbar sticky-top, navbar-light, collapse navbar-collapse, navbar-expand-lg |
+| Buttons | btn, btn-primary, btn-outline-danger, btn-link, btn-dark, btn-lg |
 | Popovers | Popovers don't use classes, rather, include these attributes in an HTML button element: data-toggle="popover", data-placement (where popover appears), data-content (what popover says) |
 
 [*This is not an all inclusive list of Bootstrap elements and classes, if you're still interested, check out this site for a really helpful list of Bootstrap classes organized by element*](https://hackerthemes.com/bootstrap-cheatsheet/)

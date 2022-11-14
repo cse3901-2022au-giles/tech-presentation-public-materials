@@ -1,5 +1,8 @@
 # Splinter Handout
 
+## Presentation
+[Link to Presentation](https://docs.google.com/presentation/d/15gvJLGxGktgb-KgyH5_OsRGgxxXO2A2_jAQtBo_ti7s/edit#slide=id.g1925d817904_0_33)
+
 ## Learning Objectives
 
 * Be competent in distinguishing when to/not to utilize Node.js

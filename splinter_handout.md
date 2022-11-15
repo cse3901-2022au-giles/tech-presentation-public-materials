@@ -1,4 +1,4 @@
-# Splinter Handout
+# Splinter Handout – Node.js
 
 ## Presentation
 [Link to Presentation](https://docs.google.com/presentation/d/15gvJLGxGktgb-KgyH5_OsRGgxxXO2A2_jAQtBo_ti7s/edit#slide=id.g1925d817904_0_33)

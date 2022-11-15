@@ -16,10 +16,13 @@ CREDIT FOR CHEAT SHEET: SheCodes (cheatsheets.shecodes.io/react) and W3Schools (
 
 ## JSX
 # JSX Element
+```
 let element = <h1>Hello, world!</h1>;
 let emptyHeading = <h1 />;
+```
 
 # JSX Expressions
+```
 let name = 'Josh Perez';
 let element = <h1>Hello, {name}</h1>;
 
@@ -28,12 +31,16 @@ function fullName(firstName, lastName) {
 }
 
 let element = <h1>Hello, {fullName('Julie', 'Johnson')}</h1>
+```
 
 # JSX Attributes
+```
 const element = <img src={user.avatarUrl} />;
 const element = <button className="btn">Click me</button>;
+```
 
 # JSX Functions
+```
 name() {
   return "Julie";
 }
@@ -43,8 +50,10 @@ return (
     Hi {name()}!
   </h1>
 )
+```
 
 # JSX Conditional Rendering
+```
 import React from "react";
 export default function Weather(props) {
   if (props.temperature >= 20) {
@@ -61,9 +70,11 @@ export default function Weather(props) {
     );
   }
 }
+```
 
 ## Components
 # Functional component
+```
 import React from 'react';
 
 export default function UserProfile() {
@@ -74,8 +85,10 @@ export default function UserProfile() {
       </div>
   );
 }
+```
 
 # Embed an internal component
+```
 import React from 'react';
 import UserAvatar from "./UserAvatar";
 
@@ -87,8 +100,10 @@ export default function UserProfile() {
       </div>
   );
 }
+```
 
 # Embed an external component
+```
 import React from 'react';
 import ComponentName from 'component-name';
 
@@ -99,8 +114,10 @@ export default function UserProfile() {
       </div>
   );
 }
+```
 
 # Advanced functional component
+```
 import React from "react";
 
 export default function Hello(props) {
@@ -115,10 +132,34 @@ export default function Hello(props) {
 }
 
 <Hello firstName="Matt" lastName="Delac" />
+```
 
 ## Rendering/DOM
+# Display a paragraph inside an element with the id of "root"
+`ReactDOM.render(<p>Hello</p>, document.getElementById('root'));`
+
+# Create a variable that contains HTML code and display it in the "root" node:
+```
+const myelement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+    </tr>
+  </table>
+);
+
+ReactDOM.render(myelement, document.getElementById('root'));
+```
+
 ## State
 # React state
+```
 import React, { useState } from "react";
 
 export default function Hello(props) {
@@ -137,13 +178,16 @@ export default function Hello(props) {
     </button>
   );
 }
-## Hooks
+```
 
 ## Properties
 # Passing properties to a component
+```
 <Student firstName="Julie" lastName="Johnson" age={23} pro={true} />
+```
 
 # Accessing the properties from a component
+```
 import React from "react";
 
 export default function Student(props) {
@@ -153,9 +197,11 @@ export default function Student(props) {
     </h1>
   )
 }
+```
 
 ## CSS
 # CSS in a React Component
+```
 import React from "react";
 import "./Student.css";
 
@@ -166,9 +212,11 @@ export default function Student() {
     </div>
   )
 }
+```
 
 ## Events
 # Event listener
+```
 import React from "react";
 
 export default function Hello() {
@@ -183,9 +231,11 @@ export default function Hello() {
     </a>
   );
 }
+```
 
 ## Forms
 # React forms
+```
 import React, { useState } from "react";
 
 export default function LoginForm() {
@@ -213,9 +263,11 @@ export default function LoginForm() {
     </form>
   );
 }
+```
 
 ## Loops
 # Looping through an array
+```
 let elements = ['one', 'two', 'three'];
 
 return (
@@ -225,8 +277,10 @@ return (
     })}
   </ul>
 );
+```
 
 # Looping through an array of objects
+```
 let elements = [{
     name: 'one',
     value: 1
@@ -247,6 +301,7 @@ return (
     })}
   </ul>
 );
+```
 
 
 

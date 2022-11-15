@@ -32,6 +32,24 @@
 
 7. **Would it make sense to use Node.js for applications with intensive server-side computations? Why or why not?**
 
+## Demo
+To run the presentation demo on your device, you will need NPM and Node installed (they probably already are). Then, just follow the steps below:
+
+1. Create test directory: `mkdir testDir`
+2. Navigate to test directory: `cd testDir`
+3. Create node_modules directory. This step is not normally required; NPM will search for a node_modules folder starting with the current directory, and ascending to ancestors. It will create one if it can't find one. However, it is easiest for the purposes of this demo if the folder is in the same place for everyone. Thus, use: `mkdir node_modules`
+4. Install our package: `npm install testprojectforsplintergiles`
+5. Navigate to the saved package: `cd ./node_modules/testprojectforsplintergiles`
+6. Run the server: `npm start`
+7. View on browser at http://127.0.0.1:8080/
+
+We will change the package during the demo. Once this happens:
+1. Return to test directory: `cd ../..`
+2. Get the latest version: `npm update`
+3. Return to package: `cd ./node_modules/testprojectforsplintergiles`
+4. Run the server again: `npm start`
+5. View the change on browser at http://127.0.0.1:8080/
+
 ## Common Node.js Modules
  
 ### HTTP

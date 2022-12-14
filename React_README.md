@@ -53,7 +53,8 @@ The output will be some text. The first link in the text will lead to the websit
 The main program is run by the commands specified in "2. Website Load Guide - How to Run Program". After these commands, the static website main program will show up.
 
 ### 4. References/Other Notes
-**Middleman**: https://middlemanapp.com/basics/install/
+**Middleman**: https://middlemanapp.com/basics/install/ \
+**Slides**: https://docs.google.com/presentation/d/1SZfydStWPM1T9cBeiJX_L-XOhOtafkBDpli8wDVkmGM/edit?usp=sharing
 
 **Project Guidelines**: http://web.cse.ohio-state.edu/~giles.25/3901/labs/task1.html 
 All other references are linked at the end of each related page.
